@@ -59,7 +59,7 @@ function mtconnect_namespace() {
 	//global variable declarations
 	let file_string_prepend  = `
 const opcua = require("node-opcua");
-const types = require("../packages/node-opcua-types");
+const types = require("./node-opcua-types");
 const adapter = require("./adapter");
 var data_item_dict = {${dataitemkeys.join(",")}};
 var data_item_val = {\n\t${dataitemvals.join(",\n\t")}\n};

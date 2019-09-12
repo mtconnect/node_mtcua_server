@@ -1,6 +1,6 @@
 
 const opcua = require("node-opcua");
-const types = require("../packages/node-opcua-types");
+const types = require("./node-opcua-types");
 const adapter = require("./adapter");
 var data_item_dict = {};
 var data_item_val = {
