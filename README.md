@@ -69,3 +69,10 @@ Update the `device_file` to point to the MTConnect XML Device File (can have mul
 
 There are a few other lower level details not yet implemented.
 
+## Other Licenses
+
+### `node-opcua`
+
+`node-opcua` is licensed under the The MIT License (MIT). 
+
+For more information see https://github.com/node-opcua/node-opcua.
